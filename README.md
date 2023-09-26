@@ -74,7 +74,7 @@ We will release our version of the datasets (Cityscapes-Seq, Viper, Synthia-Seq)
 - [Cityscapes-Seq](https://www.cityscapes-dataset.com/)
 - [Viper](https://playing-for-benchmarks.org/download/) 
   - Modality: Images, Frames: [0-9], Sequences: [01-77], Format: jpg
-  - Modality: Semantic class labels, Frames: [0-9], Sequences: [00-77], Format: png
+  - Modality: Semantic class labels, Frames: [0-9], Sequences: [01-77], Format: png
 - [Synthia-Seq](http://synthia-dataset.cvc.uab.cat/SYNTHIA_SEQS/SYNTHIA-SEQS-04-DAWN.rar)
 
 
