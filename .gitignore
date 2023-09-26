@@ -1,0 +1,225 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+docs/en/_build/
+docs/zh_cn/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.DS_Store
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+data
+.vscode
+.idea
+
+# custom
+*.pkl
+*.pkl.json
+*.log.json
+work_dirs/
+mmseg/.mim
+
+# Pytorch
+*.pth
+
+euler_log.txt
+jobs/
+configs/tmp_param.json
+configs/generated/
+*.pdf
+*.pgf
+visualization/*.png
+#exports
+.format_cityscapes/
+wandb/
+wandb_dir/
+artifacts/
+*.out
+*.err
+*.npy
+
+#folders for training/eval
+predictions
+pretrain
+
+#irrelevant experiments fo testing purposes only
+tools/ade20k_beit_exp
+tools/ade20k_exp
+
+
+
+
+# I think I've included all the relevant files from here so this sould be fine.
+tools/aggregate_flows
+tools/dataset_test/Untitled.ipynb
+tools/dataset_test/dataset_test2.ipynb
+tools/dataset_test/regularViper.ipynb
+refined_data
+refined_data_seq
+result.jpg
+FlowLoadSpeedup.ipynb
+mmseg/datasets/inheritance.py
+tools/dataset_test/Untitled1.ipynb
+config.py
+
+tools/exps/flow_consis/flow_consis_gt_v1.sh
+tools/exps/flow_consis/flow_consis_gt_v3.sh
+tools/exps/flow_consis/flow_consis_v1.sh
+tools/exps/flow_consis/flow_consis_v2.sh
+tools/exps/flow_consis/flow_consis_v3.sh
+
+tools/exps/viper_exp/viper_1g-1s-1w-evalTest.sh
+tools/exps/viper_exp/viper_2g-1s-1w.sh
+tools/exps/viper_exp/viper_4g-3s-3w.sh
+tools/exps/viper_exp/viper_4g-4s-4w.sh
+tools/exps/cache/cache_v1.sh
+tools/exps/flow_consis/flow_consis__cor_cons_v4.sh
+tools/exps/flow_consis/flow_consis_cor_cons_v1.sh
+tools/exps/flow_consis/flow_consis_cor_cons_v2.sh
+tools/exps/flow_consis/flow_consis_cor_cons_v3.sh
+tools/exps/hrda_flow_consis/hrda_flow_consis_v1.sh
+tools/exps/hrda_flow_consis/hrda_flow_consis_v2.sh
+tools/exps/lwarp/lwarp_debug1.sh
+tools/exps/lwarp/lwarp_lwarp0.sh
+tools/exps/lwarp/lwarp_lwarp1.sh
+tools/exps/lwarp/lwarp_old.sh
+tools/exps/mic/mic_GTA_CS_v1.sh
+tools/exps/mic/mic_savePt.sh
+tools/exps/mic_viper/mic_viper_v1-overcap.sh
+tools/exps/mic_viper/mic_viper_v1.sh
+tools/exps/mic_viper/mic_viper_v2NoLabelMap.sh
+tools/exps/mic_viper/mic_viper_v2NoLabelMapShort.sh
+tools/exps/mic_viper/mic_viper_v2NoLabelMapShort2.sh
+tools/exps/mic_viper/mic_viper_v3.sh
+tools/exps/mic_viper/mic_viper_v3a2.sh
+tools/exps/mic_viper/mic_viper_v3overcap.sh
+tools/exps/lwarp2
+tools/exps/lwarp
+tools/testing
+*4.sh
+*6.sh
+*1.sh
+*5.sh
+# *_*.sh
+computationGraph.dot
+computationGraph.png
+computationGraph2.png
+computationGraph2.svg
+missingkeys.txt
+multInher.py
+tools/slurm_train_analysis_salloc.sh
+tools/exps/debug/speedDebug.sh
+tools/exps/filter_eval/eval.sh
+tools/exps/lwarpv3/lwarp copy.sh
+tools/exps/lwarpv3/lwarp_debugPreempt.sh
+tools/exps/lwarpv3/lwarp_overcapDebug.sh
+tools/exps/lwarpv3/lwarp_sourceonly.sh
+tools/exps/lwarpv3/lwarp_warp1e-1mix1-FILL-PLWeight_8.sh
+tools/exps/lwarpv4/lwarp_debug_2.sh
+tools/exps/lwarpv4/lwarp.sh
+tools/exps/mmdg/mmdg.sh
+tools/exps/mmv1/mm_daformer_04-20-2023-16-21-17.sh
+tools/exps/mmv1/mmHRDA.sh
+tools/exps/mmv3/mmv3RGB.sh
+tools/exps/sourceEval/sourceEval.sh
+tools/exps/sourceEval/sourceEval2.sh
+tools/testing/
+tools/exps/
